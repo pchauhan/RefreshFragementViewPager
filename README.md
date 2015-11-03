@@ -7,6 +7,8 @@ RefreshFragementViewPager is useful for update fragment on Tab change using Frag
  
  - [FragmentStatePagerAdapter][2]  (Since the main purpose/advantage of Android FragmentStatePagerAdapter class is to it consume less memory as compared to its counterpart, I used this to solve my problem. Android FragmentStatePagerAdapter class consumes less memory, because it destroys fragments, as soon as they are not visible to user, keeping only saved state of that fragment. And savedInstanceState is all, what I needed in my app to restore the filled out data by user.)
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-RefreshFragementViewPager-green.svg?style=true)](https://android-arsenal.com/details/3/2723)
+
 ## Screenshot
 
 ![1](https://raw.githubusercontent.com/pchauhan/RefreshFragementViewPager/master/Screenshots/1.png)![2](https://raw.githubusercontent.com/pchauhan/RefreshFragementViewPager/master/Screenshots/2.png)
